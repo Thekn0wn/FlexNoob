@@ -24,17 +24,17 @@
 <body>
 
   <!-- Information Modal-->
-  <div class="information-modal">
+  <div class="information-modal" style="visibility: visible;"> <!-- Inline style due to js -->
     <div class="information-modal-wrapper">
       <h1>Flexbox Playground</h1>
       <span>Learn flexbox guick and easy with visual guides</span>
-      <p>Here you'll be able to play around with flexbox and see how works and moves the elements.</p>
+      <p>Here you'll be able to play around with flexbox and see how it works and moves the elements.</p>
       <div class="info-guide">
         <h3>Quick Guide</h3>
         <h4>Radio buttons</h4>
         <div class="guide-radio-btns">
           <p>You can press each individual radio button to move around the figures inside the boxes. These buttons will
-            apply the styling to the box that is besides it.</p>
+            apply the styling of the box that is besides it.</p>
             <label>Radio button: </label>
             <input type="radio" name="guide-radio-button" />
         </div>
@@ -46,7 +46,7 @@
         </div>
       </div>
       <div class="info-btn-div">
-        <button class="remove-guide" id="hide-guide" onClick="removeGuide()">Ok</button>
+        <button class="remove-guide" id="hide-guide" onClick="GuideModal()">Ok</button>
       </div>
     </div>
   </div>
@@ -54,7 +54,8 @@
   
   <!-- partial:index.partial.html -->
   <div class="principal">
-    <button id="show-guide-btn" onClick="showGuide()">Guide</button>
+    <button id="show-guide-btn" onClick="GuideModal()">Guide</button>
+    
     <h2>Properties for the flex container</h2>
     <div class="control">
       <h4><a href="http://w3.unpocodetodo.info/css3/flex-direction.php">flex-direction</a> <small>( property of the flex container )</small></h4>

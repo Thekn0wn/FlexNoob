@@ -24,7 +24,7 @@ body { padding-top: 2vh; position: relative; overflow-x: hidden;}
 */
 
 .information-modal {
-  position: absolute;
+  position: fixed;
   z-index: 99;
   width: 100vw;
   min-height: 100vh;
@@ -35,7 +35,7 @@ body { padding-top: 2vh; position: relative; overflow-x: hidden;}
 }
 
 .information-modal-wrapper {
-  max-width: 60vw;
+  max-width: 40vw;
   width: 100%;
   border: 2px solid var(--border-dark);
   background-color: var(--main);
@@ -378,7 +378,13 @@ table td{ width:50%; padding:3px; text-transform: capitalize;}
 #FCI5 .item{ width:20%;}
 .nbsp{white-space: nowrap;}
 
-@media only screen and (max-width:1100px){.principal{ width:calc(100% - 40px);}}
+@media only screen and (max-width:1100px){
+  .principal{ width:calc(100% - 40px);}
+  .information-modal-wrapper { max-width: 95%; }
+  .information-modal-wrapper h1 { font-size: 1.5em; }
+}
+
+
 @media only screen and (max-width:580px) {
 .item{ width:50px;height:50px;}
 .principal{ width:calc(100% - 40px); min-width:initial;}
