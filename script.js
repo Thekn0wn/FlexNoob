@@ -71,3 +71,14 @@ B1.addEventListener("change", function() {
 }), S2.addEventListener("change", function() {
   changeAll(B2, G2, S2, "item2")
 });
+
+
+function removeGuide() {
+  const guide = document.querySelector('.information-modal');
+  guide.style.visibility = 'hidden';
+}
+
+function showGuide() {
+  const guide = document.querySelector('.information-modal');
+  guide.style.visibility = 'visible';
+}
