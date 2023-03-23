@@ -390,5 +390,6 @@ table td{ width:50%; padding:3px; text-transform: capitalize;}
 .principal{ width:calc(100% - 40px); min-width:initial;}
 .flex-container{width:100%; min-width:initial;}	
 .radio {gap: 0.2em;}
+.information-modal-wrapper {height: 60%;}
 #wrap{ width:200px;}
 }
