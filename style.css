@@ -101,7 +101,7 @@ body { padding-top: 2vh; position: relative; overflow-x: hidden;}
   right: 15px;
 }
 
-.content-wrapper { display: flex; }
+.content-wrapper { display: flex; flex-wrap: wrap;}
 
 #show-guide-btn:hover,
 #show-guide-btn:focus {
