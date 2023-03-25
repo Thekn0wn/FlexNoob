@@ -493,7 +493,7 @@ table td {
   }
 
   .information-modal-wrapper {
-    max-width: 80%;
+    max-width: 60%;
   }
   .information-modal-wrapper h1 {
     font-size: calc(var(--h1) - var(--nm));
