@@ -524,7 +524,7 @@ table td {
   }
 
   .information-modal-wrapper {
-    height: auto;
+    height: 70vh;
     max-width: 90%;
   }
 
@@ -534,5 +534,14 @@ table td {
 
   .content-wrapper {
     flex-direction: column;
+  }
+
+  #show-guide-btn {
+    max-width: 84px;
+    height: 30px;
+    width: 100%;
+    bottom: 5px;
+    right: 10px;
+    font-size: var(--sm);
   }
 }
