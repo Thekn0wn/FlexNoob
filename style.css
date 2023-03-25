@@ -524,9 +524,20 @@ table td {
   }
 
   .information-modal-wrapper {
-    height: 70vh;
+    height: auto;
     max-width: 90%;
+    font-size: var(--sm);
   }
+
+  .information-modal-wrapper h1 {
+    font-size: var(--h3);
+  }
+
+  .information-modal-wrapper h4 {
+    font-size: var(--nm);
+  }
+
+
 
   #wrap {
     width: 200px;
