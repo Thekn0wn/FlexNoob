@@ -554,14 +554,7 @@ table td {
     font-size: var(--sm);
   }
 }
-.item {
-  transition: width 0.3s, height 0.3s;
-  position: static;
-  top: 50px;
-}
-.item:hover {
-  width: 50px;
-}
+
 ::selection {
   background-color: rgb(11, 171, 88);
 }
