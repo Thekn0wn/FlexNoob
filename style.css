@@ -347,20 +347,20 @@ label {
   line-height: calc(var(--h3) - var(--xsm));
   text-transform: capitalize;
 }
-input[type='radio'] {
+input[type="radio"] {
   color: var(--secondary);
   margin: 0rem 0.3em;
 }
-input[type='radio']:checked + label {
+input[type="radio"]:checked + label {
   color: var(--container);
 }
-input[type='number']:hover,
-input[type='number']:focus {
+input[type="number"]:hover,
+input[type="number"]:focus {
   outline: 1px solid var(--container);
   -moz-appearance: number-input;
 }
 
-input[type='number'] {
+input[type="number"] {
   width: 60px;
   margin-right: 0.5em;
   height: 25px;
@@ -537,8 +537,6 @@ table td {
     font-size: var(--nm);
   }
 
-
-
   #wrap {
     width: 200px;
   }
@@ -555,4 +553,23 @@ table td {
     right: 10px;
     font-size: var(--sm);
   }
+}
+.item {
+  transition: width 0.3s, height 0.3s;
+  position: static;
+  top: 50px;
+}
+.item:hover {
+  width: 50px;
+}
+::selection {
+  background-color: rgb(11, 171, 88);
+}
+input[type="number"] {
+  transition: all 0.3s;
+}
+
+input[type="number"]:focus {
+  width: 100px;
+  height: 50px;
 }
